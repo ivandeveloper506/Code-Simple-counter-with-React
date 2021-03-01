@@ -1,13 +1,51 @@
+/*******************************************************************************/
+/* Fecha Creación: 01 Marzo 2021.                                              */
+/* Autor:          Iván Fonseca Castro                                         */
+/*                                                                             */
+/* Descripción:    Hoja principal de estilos, permite personalizar los estilos */
+/*                 a utilizar en los componentes del sitio Web.                */
+/*******************************************************************************/
+
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+body{
+    background-image: url('.././img/bg-clock.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 35vw;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.bigCounter{
+    display: flex;
+    text-align: center;
+    background-color: rgba(0,0,0,0.4);
+    margin: 85px 200px 0px 200px;
+    border-radius: 7px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: solid 1px rgba(255,255,255,0.4);
+}
 
-*/
+.bigCounter div{
+    display: inline-block;
+    font-size: 100px;
+    line-height: 80px;
+    color: white;
+    padding: 15px;
+    margin: 5px;
+    justify-content: center;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six
+{
+    background-color: rgba(0,0,0,0.3);
+    border: solid 1px rgba(255,255,255,0.2);
+}

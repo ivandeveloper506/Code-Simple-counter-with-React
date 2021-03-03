@@ -16,7 +16,7 @@ export function SimpleCounter(props) {
 	return (
 		<div className="bigCounter">
 			<div className="calendar">
-				<i class="far fa-clock"></i>
+				<i className="far fa-clock"></i>
 			</div>
 			<div className="six">{props.digitSix % 10}</div>
 			<div className="five">{props.digitFive % 10}</div>
